@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "whoami"
-               BuildableName = "whoami"
-               BlueprintName = "whoami"
+               BlueprintIdentifier = "Whoami"
+               BuildableName = "Whoami"
+               BlueprintName = "Whoami"
                ReferencedContainer = "container:">
             </BuildableReference>
          </BuildActionEntry>
@@ -74,9 +74,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "whoami"
-            BuildableName = "whoami"
-            BlueprintName = "whoami"
+            BlueprintIdentifier = "Whoami"
+            BuildableName = "Whoami"
+            BlueprintName = "Whoami"
             ReferencedContainer = "container:">
          </BuildableReference>
       </MacroExpansion>

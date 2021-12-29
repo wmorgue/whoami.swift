@@ -1,5 +1,5 @@
 import XCTest
-@testable import whoami
+@testable import Whoami
 
 final class whoamiTests: XCTestCase {
 	

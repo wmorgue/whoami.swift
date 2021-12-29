@@ -6,6 +6,8 @@ import class UIKit.UIDevice
 
 
 public struct Whoami {
+
+	public init() {}
 	
 	/// Get the user's username.
 	public func userName() -> String {
