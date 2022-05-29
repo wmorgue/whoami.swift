@@ -12,7 +12,7 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "Whoami",
-            targets: ["Whoami"]),
+            targets: ["Whoami"])
     ],
     dependencies: [],
     targets: [
@@ -23,6 +23,6 @@ let package = Package(
             dependencies: []),
         .testTarget(
             name: "whoamiTests",
-            dependencies: ["Whoami"]),
+            dependencies: ["Whoami"])
     ]
 )
