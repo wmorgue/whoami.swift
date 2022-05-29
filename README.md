@@ -18,7 +18,7 @@ Add this package to current project and import.
 import Whoami
 
 func main() {
-    let host = Whoami().hostName()
+    let host = Whoami.hostName
     print("Current host: \(host)")
 }
 ```

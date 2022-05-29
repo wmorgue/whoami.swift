@@ -5,7 +5,7 @@
 //  Created by Nikita Rossik on 12/29/21.
 //
 
-/// Which platform
+/// Available platform
 public enum Platform {
 	case iOS
 	case Linux
@@ -16,5 +16,3 @@ public enum Platform {
 }
 
 extension Platform: Equatable {}
-
-

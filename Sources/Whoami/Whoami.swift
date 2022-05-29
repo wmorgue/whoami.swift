@@ -5,9 +5,7 @@ import class UIKit.UIDevice
 #endif
 
 
-public struct Whoami {
-
-	public init() {}
+public enum Whoami {
 	
 	/// Get the user's username.
 	public func userName() -> String {
@@ -29,7 +27,7 @@ public struct Whoami {
 #if os(iOS)
 		UIDevice.current.name
 #else
-		"Device name"
+		String("Can't determine device name")
 #endif
 	}
 	
@@ -38,7 +36,7 @@ public struct Whoami {
 #if os(iOS)
 		UIDevice.current.localizedModel
 #else
-		"Device model"
+		String("Can't determine device")
 #endif
 	}
 	
